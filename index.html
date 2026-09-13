@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0c1212" />
+    <meta
+      name="description"
+      content="A quiet, interactive love letter for the person who makes distance feel small."
+    />
+    <title>still / us</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="cursor-aura" aria-hidden="true"></div>
+
+    <div class="site-backdrop" aria-hidden="true">
+      <div class="backdrop-glow"></div>
+      <div class="backdrop-grid"></div>
+      <div class="starfield">
+        <span class="star star-a"></span>
+        <span class="star star-b"></span>
+        <span class="star star-c"></span>
+        <span class="star star-d"></span>
+        <span class="star star-e"></span>
+        <span class="star star-f"></span>
+        <span class="star star-g"></span>
+      </div>
+      <span class="continuity-star"></span>
+    </div>
+
+    <section class="prelude-screen" id="intro" aria-labelledby="intro-title">
+      <div class="prelude-header">
+        <span class="micro-label">a small universe</span>
+        <span class="micro-label">01 / 12</span>
+      </div>
+
+      <div class="prelude-stage">
+        <p class="eyebrow prelude-eyebrow">for my meri jaan / Alishba</p>
+        <h1 id="intro-title" class="prelude-title">
+          <span>still</span>
+          <span class="title-indent">us</span>
+        </h1>
+
+        <button class="portal magnetic" id="portal" type="button" aria-label="Enter the experience">
+          <span class="portal-ring portal-ring-one"></span>
+          <span class="portal-ring portal-ring-two"></span>
+          <span class="portal-glass"></span>
+          <span class="portal-core"></span>
+          <span class="portal-butterfly butterfly butterfly-small" aria-hidden="true">
+            <span class="wing wing-left"></span>
+            <span class="wing wing-right"></span>
+            <span class="body"></span>
+          </span>
+        </button>
+
+        <div class="prelude-foot">
+          <p>Thirteen months of distance.<br />Still, somehow, us.</p>
+          <button class="text-button magnetic" id="enter-button" type="button">
+            <span>open this</span>
+            <span class="button-arrow" aria-hidden="true">&#8594;</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="prelude-footer">
+        <span>made slowly / with love</span>
+        <span class="scroll-cue"><i></i> your story is waiting</span>
+      </div>
+    </section>
+
+    <header class="experience-nav" aria-label="Experience navigation" inert>
+      <button class="brand-mark" id="brand-mark" type="button" aria-label="Still us home">
+        <span>still</span><b>/</b><span>us</span>
+      </button>
+
+      <div class="chapter-counter" aria-live="polite">
+        <span id="chapter-current">01</span>
+        <span class="counter-slash">/</span>
+        <span>12</span>
+      </div>
+
+      <nav class="chapter-links" aria-label="Chapters">
+        <button type="button" data-scroll-to="chapter-01">begin</button>
+        <button type="button" data-scroll-to="chapter-04">memories</button>
+        <button type="button" data-scroll-to="chapter-07">apology</button>
+        <button type="button" data-scroll-to="chapter-11">letter</button>
+      </nav>
+
+      <div class="sound-controls" aria-label="Music controls">
+        <div class="sound-progress" aria-hidden="true"><span id="sound-progress-fill"></span></div>
+        <button type="button" id="audio-toggle" aria-label="Play music">sound / off</button>
+        <button type="button" id="mute-toggle" aria-label="Mute music" aria-pressed="false">mute</button>
+      </div>
+    </header>
+
+    <main class="experience" id="experience" aria-hidden="true" inert>
+      <section class="chapter chapter-hero" id="chapter-01" data-chapter="01" aria-labelledby="hero-heading">
+        <div class="chapter-stamp">
+          <span>01</span>
+          <span>the threshold</span>
+        </div>
+
+        <div class="hero-content">
+          <div class="hero-copy">
+            <p class="eyebrow reveal-on-view">a note from one side of the sky</p>
+            <h2 id="hero-heading" class="hero-title reveal-on-view">
+              <span>Alishba,</span>
+              <span class="title-indent">somewhere between here</span>
+              <span>and there.</span>
+            </h2>
+            <p class="hero-description reveal-on-view">
+              There is a place I keep returning to. It has no address, no timezone, and no end of day. It begins whenever I think of you, and it has been ours for thirteen months.
+            </p>
+            <button class="line-button magnetic reveal-on-view" type="button" data-scroll-to="chapter-02">
+              <span>keep going</span><span aria-hidden="true">&#8595;</span>
+            </button>
+          </div>
+
+          <div class="hero-figure" aria-hidden="true">
+            <div class="figure-halo"></div>
+            <div class="figure-orbit figure-orbit-a"></div>
+            <div class="figure-orbit figure-orbit-b"></div>
+            <div class="figure-light"></div>
+            <span class="figure-caption">the same moon / different windows</span>
+          </div>
+        </div>
+
+        <div class="chapter-bottom-note"><span>scroll to wander</span><span class="down-line"></span></div>
+      </section>
+
+      <section class="chapter chapter-thirteen" id="chapter-02" data-chapter="02" aria-labelledby="thirteen-heading">
+        <div class="chapter-stamp"><span>02</span><span>thirteen months</span></div>
+        <div class="thirteen-layout">
+          <div class="thirteen-number reveal-on-view"><span>13</span><small>months of<br />finding our way</small></div>
+          <div class="thirteen-copy">
+            <p class="eyebrow reveal-on-view">not a countdown</p>
+            <h2 id="thirteen-heading" class="section-title reveal-on-view">A number can hold<br /><em>more than it says.</em></h2>
+            <p class="section-description reveal-on-view">Thirteen months is not one perfect story. It is the conversations, the quiet repairs, the laughter, the hard parts, and the choice to keep learning each other.</p>
+            <div class="month-timeline" id="month-timeline" aria-label="What thirteen months can hold"></div>
+          </div>
+        </div>
+        <div class="poem-panel reveal-on-view" data-poem-picker data-poem-ids="thirteen-things,same-sky"></div>
+      </section>
+
+      <section class="chapter chapter-universe" id="chapter-03" data-chapter="03" aria-labelledby="universe-heading">
+        <div class="chapter-stamp"><span>03</span><span>our little universe</span></div>
+        <div class="universe-header">
+          <div><p class="eyebrow reveal-on-view">look closely</p><h2 id="universe-heading" class="section-title reveal-on-view">Our own small<br /><em>weather system.</em></h2></div>
+          <p class="universe-instruction reveal-on-view">Every light is a different way you have made a place for me. Touch one.</p>
+        </div>
+        <div class="universe-layout">
+          <div class="universe-field" id="universe-field">
+            <div class="universe-field-label"><span>field notes / 03</span><span id="universe-count">00 found</span></div>
+            <svg class="universe-lines" viewBox="0 0 760 540" aria-hidden="true"><path d="M 92 360 C 195 160, 350 220, 410 104 S 610 164, 683 378"></path><path d="M 92 360 C 240 500, 490 454, 683 378"></path></svg>
+            <div id="universe-stars"></div>
+            <div class="universe-butterfly butterfly" aria-hidden="true"><span class="wing wing-left"></span><span class="wing wing-right"></span><span class="body"></span></div>
+          </div>
+          <aside class="universe-detail" id="universe-detail" aria-live="polite"><span class="eyebrow">constellation / waiting</span><h3 id="universe-detail-title">Choose a light</h3><p id="universe-detail-copy">Some things are too important to put in a list.</p></aside>
+        </div>
+        <div class="universe-reveal" id="universe-reveal" hidden><span class="reveal-line"></span><p>You found enough of us to make a shape.<br /><em>Bas itna hi kaafi hai.</em></p></div>
+        <div class="poem-panel reveal-on-view" data-poem-picker data-poem-ids="same-sky,faslay"></div>
+      </section>
+
+      <section class="chapter chapter-memories" id="chapter-04" data-chapter="04" aria-labelledby="memory-heading">
+        <div class="chapter-stamp"><span>04</span><span>the memories</span></div>
+        <div class="memory-header"><div><p class="eyebrow reveal-on-view">the editable archive</p><h2 id="memory-heading" class="section-title reveal-on-view">Leave the real<br /><em>details here.</em></h2></div><p class="memory-instruction reveal-on-view">Eight quiet spaces for the moments only you and I can name. Edit them in the content object.</p></div>
+        <div class="memory-field editable-memory-field" id="memory-field">
+          <div class="memory-field-topline"><span>memory field / 04</span><span id="memory-count">00 found</span></div>
+          <span class="field-thread thread-one" aria-hidden="true"></span><span class="field-thread thread-two" aria-hidden="true"></span>
+          <div id="memory-node-layer"></div>
+          <aside class="memory-detail" id="memory-detail" aria-live="polite" hidden><button class="detail-close" id="detail-close" type="button" aria-label="Close memory">close <span>&#215;</span></button><p class="eyebrow" data-memory-kicker></p><h3 data-memory-title></h3><p data-memory-copy></p><div class="memory-art" data-memory-art aria-hidden="true"><span></span><i></i></div></aside>
+        </div>
+      </section>
+
+      <section class="chapter chapter-love" id="chapter-05" data-chapter="05" aria-labelledby="love-heading">
+        <div class="chapter-stamp"><span>05</span><span>things I love</span></div>
+        <div class="love-header"><p class="eyebrow reveal-on-view">the things you might not notice</p><h2 id="love-heading" class="section-title reveal-on-view">Alishba, I notice<br /><em>more than I say.</em></h2><p class="section-description reveal-on-view">Not a list of perfect qualities. Just the little evidence I keep collecting that you are my favourite person to know.</p></div>
+        <div class="love-list" id="love-list" aria-label="Things I love about Alishba"></div>
+        <div class="poem-panel reveal-on-view" data-poem-picker data-poem-ids="small-things,mera-shona"></div>
+      </section>
+
+      <section class="chapter chapter-regret" id="chapter-06" data-chapter="06" aria-labelledby="regret-heading">
+        <div class="chapter-stamp"><span>06</span><span>everything I regret</span></div>
+        <div class="regret-layout"><div class="regret-lead"><p class="eyebrow reveal-on-view">the honest room</p><h2 id="regret-heading" class="section-title reveal-on-view">I will not celebrate<br /><em>by pretending.</em></h2><p class="section-description reveal-on-view">I know I have not always treated your heart with the care it deserved. These are not excuses, and they are not requests for forgiveness. They are spaces for the truth, when I am ready to write it properly.</p></div><div class="regret-quote reveal-on-view"><span>what I owe this love</span><p>less performance.<br />more listening.<br />better actions.</p></div></div>
+        <div class="regret-list" id="regret-list"></div>
+        <div class="poem-panel reveal-on-view" data-poem-picker data-poem-ids="what-i-am-learning,maafi"></div>
+      </section>
+
+      <section class="chapter chapter-apology" id="chapter-07" data-chapter="07" aria-labelledby="apology-heading">
+        <div class="chapter-stamp"><span>07</span><span>the apology</span></div>
+        <div class="apology-layout"><div class="apology-lead"><p class="eyebrow reveal-on-view">Alishba, listen when you are ready</p><h2 id="apology-heading" class="section-title reveal-on-view">I am sorry,<br /><em>meri jaan.</em></h2><p class="section-description reveal-on-view">Not as a shortcut past what happened. As a clear look at my part in it, and a promise to let change be something you can feel rather than something I announce.</p></div><div class="apology-stage reveal-on-view" id="apology-stage"><div class="apology-stage-meta"><span id="apology-step">01 / 08</span><span>say it, then show it</span></div><h3 id="apology-stage-title"></h3><p id="apology-stage-copy"></p><button class="line-button" id="apology-next" type="button"><span>keep reading</span><span aria-hidden="true">&#8594;</span></button></div></div>
+        <div class="poem-panel reveal-on-view" data-poem-picker data-poem-ids="maafi,patience,faslay"></div>
+      </section>
+
+      <section class="chapter chapter-meaning" id="chapter-08" data-chapter="08" aria-labelledby="meaning-heading">
+        <div class="chapter-stamp"><span>08</span><span>what you mean to me</span></div>
+        <div class="meaning-header"><p class="eyebrow reveal-on-view">after the hard part</p><h2 id="meaning-heading" class="section-title reveal-on-view">You are more than<br /><em>the difficult moments.</em></h2><p class="section-description reveal-on-view">You are not a reward for me becoming better. You are Alishba: your own person, with your own heart. This is what I am grateful to know about loving you.</p></div>
+        <div class="meaning-list" id="meaning-list"></div>
+        <div class="poem-panel reveal-on-view" data-poem-picker data-poem-ids="home-is-a-voice,mera-shona"></div>
+      </section>
+
+      <section class="chapter chapter-games" id="chapter-09" data-chapter="09" aria-labelledby="games-heading">
+        <div class="chapter-stamp"><span>09</span><span>the games</span></div>
+        <div class="games-header"><p class="eyebrow reveal-on-view">for my lil baby</p><h2 id="games-heading" class="section-title reveal-on-view">A little mischief<br /><em>for the serious parts.</em></h2><p class="section-description reveal-on-view">Five small places to play. Nothing to win except a few messages Soban hid for you.</p></div>
+        <div class="game-switcher" role="tablist" aria-label="Romantic games"><button class="is-active" type="button" role="tab" aria-selected="true" data-game="match">01 match</button><button type="button" role="tab" aria-selected="false" data-game="butterfly">02 catch</button><button type="button" role="tab" aria-selected="false" data-game="sequence">03 stars</button><button type="button" role="tab" aria-selected="false" data-game="quiz">04 us</button><button type="button" role="tab" aria-selected="false" data-game="mystery">05 letters</button></div>
+        <div class="game-panels">
+          <section class="game-panel is-active" id="game-match" role="tabpanel"><div class="game-panel-heading"><span>memory match</span><p>Find the pairs. The reward is hidden in the match.</p></div><div class="match-board" id="match-board"></div><p class="game-status" id="match-status" aria-live="polite">find your first pair</p></section>
+          <section class="game-panel" id="game-butterfly" role="tabpanel" hidden><div class="game-panel-heading"><span>catch the butterfly</span><p>It is gentle, not fast. Five taps and it will leave you something.</p></div><div class="butterfly-arena" id="butterfly-arena"><button class="game-butterfly" id="game-butterfly-target" type="button" aria-label="Catch the butterfly"><span class="butterfly"><span class="wing wing-left"></span><span class="wing wing-right"></span><span class="body"></span></span></button></div><p class="game-status" id="butterfly-status" aria-live="polite">0 / 5 catches</p></section>
+          <section class="game-panel" id="game-sequence" role="tabpanel" hidden><div class="game-panel-heading"><span>constellation</span><p>Follow the stars in the order they wake up.</p></div><div class="sequence-field" id="sequence-field"></div><p class="game-status" id="sequence-status" aria-live="polite">begin with the quietest star</p></section>
+          <section class="game-panel" id="game-quiz" role="tabpanel" hidden><div class="game-panel-heading"><span>how well do you know us?</span><p>There are no wrong answers about the past. Only better ones for the future.</p></div><div class="quiz-card" id="quiz-card"><span id="quiz-number">01 / 04</span><h3 id="quiz-question"></h3><div id="quiz-answers"></div><p class="game-status" id="quiz-status" aria-live="polite"></p></div></section>
+          <section class="game-panel" id="game-mystery" role="tabpanel" hidden><div class="game-panel-heading"><span>mystery letters</span><p>One holds a message from Soban. The others are still worth opening.</p></div><div class="mystery-row" id="mystery-row"></div><p class="game-status" id="mystery-status" aria-live="polite">choose one envelope</p></section>
+        </div>
+      </section>
+
+      <section class="chapter chapter-future" id="chapter-10" data-chapter="10" aria-labelledby="future-heading">
+        <div class="chapter-stamp"><span>10</span><span>our future</span></div>
+        <div class="future-header"><p class="eyebrow reveal-on-view">not a promise of perfection</p><h2 id="future-heading" class="section-title reveal-on-view">There is still so much<br /><em>good to grow into.</em></h2><p class="section-description reveal-on-view">No deadlines. No impossible guarantees. Just a direction, and the hope that we keep meeting each other there with more patience than before.</p></div>
+        <div class="future-timeline" id="future-timeline"></div>
+        <div class="future-note reveal-on-view"><span class="note-rule"></span><p>one day, the distance may close.<br /><em>until then, we can keep making closeness.</em></p></div>
+      </section>
+
+      <section class="chapter chapter-letter" id="chapter-11" data-chapter="11" aria-labelledby="letter-heading">
+        <div class="chapter-stamp"><span>11</span><span>the big letter</span></div>
+        <div class="letter-intro"><p class="eyebrow reveal-on-view">delivered by hand, across the distance</p><h2 id="letter-heading" class="section-title reveal-on-view">One more thing<br /><em>I wanted you to have.</em></h2></div>
+        <div class="letter-composition">
+          <article class="letter-sheet" id="letter-sheet" aria-labelledby="letter-title" hidden><div class="letter-sheet-top" id="letter-title"><span>for Alishba</span><span>read slowly</span></div><div class="letter-copy"><p class="letter-salutation">My favourite person,</p><div id="big-letter-beat"></div><div class="letter-controls"><span id="letter-progress">01 / 10</span><button class="line-button" id="letter-next" type="button"><span>next page</span><span aria-hidden="true">&#8594;</span></button></div></div></article>
+          <button class="envelope magnetic" id="open-letter" type="button" aria-expanded="false" aria-controls="letter-sheet"><span class="envelope-back"></span><span class="envelope-paper-mark">a letter<br />for you</span><span class="envelope-flap"></span><span class="envelope-seal">open</span></button>
+        </div>
+        <p class="letter-hint" id="letter-hint">the seal is only holding the first page</p>
+      </section>
+
+      <section class="chapter chapter-final" id="chapter-12" data-chapter="12" aria-labelledby="final-heading">
+        <div class="final-atmosphere" aria-hidden="true"><span class="final-ray ray-one"></span><span class="final-ray ray-two"></span><span class="final-star final-star-a"></span><span class="final-star final-star-b"></span><svg class="final-constellation" viewBox="0 0 920 620"><path d="M 120 430 C 270 120, 610 110, 800 390"></path><path d="M 120 430 C 340 500, 595 520, 800 390"></path><circle cx="120" cy="430" r="5"></circle><circle cx="800" cy="390" r="5"></circle><circle cx="472" cy="158" r="3"></circle><circle cx="500" cy="504" r="3"></circle></svg><div class="butterfly butterfly-final"><span class="wing wing-left"></span><span class="wing wing-right"></span><span class="body"></span></div></div>
+        <button class="final-star final-star-secret" id="secret-star" type="button" aria-label="A small star"></button>
+        <div class="final-content"><p class="eyebrow reveal-on-view">12 / the part that stays</p><div class="final-number reveal-on-view">13</div><h2 id="final-heading" class="final-title reveal-on-view">Still choosing<br /><em>you.</em></h2><p class="final-description reveal-on-view">Thirteen months were never just a number. They were small moments, hard lessons, soft returns, and a story that keeps becoming ours.</p><button class="line-button magnetic reveal-on-view" id="reveal-final" type="button"><span>one more thing</span><span aria-hidden="true">&#8594;</span></button><p class="final-message" id="final-message" hidden>Alishba, meri jaan, mera shona, my lil baby: I love you in the honest way, the learning way, the keep-showing-up way.<br /><strong>Always yours,<br />Soban</strong></p><div class="final-actions reveal-on-view"><button class="line-button magnetic" id="replay-button" type="button"><span>begin again</span><span aria-hidden="true">&#8634;</span></button><button class="quiet-button magnetic" type="button" data-scroll-to="chapter-04">wander the memories</button></div></div>
+        <div class="final-footer"><span>made for one person</span><span>with all the time in the world</span></div>
+      </section>
+    </main>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <audio id="ambient-audio" src="assets/music.mp3" loop preload="none"></audio>
+
+    <script src="script.js"></script>
+  </body>
+</html>
